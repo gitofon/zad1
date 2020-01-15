@@ -1,0 +1,66 @@
+<html>
+    <head>
+
+    </head>
+    <header>
+        <div id="Naslov">
+            <p><b><i>NASLOV</i></b></p>
+        </div>
+    </header>
+    <body>
+        <div class="Slika">
+            <a href="https://www.mercedes-benz.rs/">
+                <img src="img/1.jpg" />
+            </a>
+        </div>
+        <div class="lista">
+            <ul>
+                <li>1. element liste
+                    <ul>
+                        <li>1. element podliste</li>
+                        <li>2. element podliste</li>
+                    </ul>
+                </li>
+                <li>2. element liste</li>
+                <li>3. element liste</li>
+            </ul>
+        </div>
+        <form>
+            <h2>Popunite Formu</h2>
+            <input type="text" id="name" class="form-control" placeholder="Ime" required>
+            <br>
+            <select name="pol" id="pol">
+                <option value="musko">Musko</option>
+                <option value="zensko">Zensko</option>
+            </select>
+            <br>
+            <button type="submit" class="btn btn-custom btn-lg">Submit</button>
+        </form>
+    </body>
+
+    <footer>
+        <h3>By Unknown Team</h3>
+    </footer>
+
+    <style>
+        body{
+            background-color: rgb(136, 72, 72);
+            text-align: center;
+            font: message-box;
+            margin: auto;
+            color: white;
+        }
+        #Naslov{
+            font-size: 40;
+        }
+        .slika{
+            padding: 30px;
+        }
+        .lista{
+            text-align: start;
+        }
+        .slika :hover{
+            opacity: 50%;
+        }
+    </style>
+</html>
